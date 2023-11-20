@@ -3,7 +3,7 @@ futbol, bàsquet, tenis, F1 i motociclisme.
 La redacció pot tenir més d’un redactor, i de cadascun d’ells volem saber el seu nom, el DNI i el sou.
 Un cop assignat un DNI, aquest no podrà canviar mai. Tots els redactors tenen el mateix sou,
 i si en un futur l’empresa pot incrementar-lo, ho farà a tothom per igual.
-De moment el sou actual és de 1500 €.
+De moment el sou actual és de 1500€.
 Cada redactor pot treballar en més d’una notícia. Les notícies han de tenir un titular, un text,
 una puntuació i un preu. En el moment de crear-se, el text ha d’estar buit.
 A més, de les notícies de futbol s’ha de saber a quina competició fa referència(String),
@@ -18,30 +18,30 @@ un mètode que es diu calcularPreuNoticia().
 A continuació s’explica com calcular el preu de cada notícia:
 
 Notícies de futbol:
-Preu inicial: 300 €
-Lliga de Campions: 100 €
-Barça o Madrid: 100 €
-Ferran Torres o Benzema: 50 €
+Preu inicial: 300€
+Lliga de Campions: 100€
+Barça o Madrid: 100€
+Ferran Torres o Benzema: 50€
 
 Exemple: Una notícia que parla d’un gol de Ferran Torres del Barça a la Lliga de Campions,
-té un preu de 550 €.
+té un preu de 550€.
 
 Notícies de bàsquet:
-Preu inicial: 250 €
-Eurolliga: 75 €
-Barça o Madrid: 75 €
+Preu inicial: 250€
+Eurolliga: 75€
+Barça o Madrid: 75€
 
 Notícies de tenis:
-Preu inicial: 150 €
-Federer, Nadal o Djokovic: 100 €
+Preu inicial: 150€
+Federer, Nadal o Djokovic: 100€
 
 Notícies d'F1:
-Preu inicial: 100 €
-Ferrari o Mercedes: 50 €
+Preu inicial: 100€
+Ferrari o Mercedes: 50€
 
 Notícies de motociclisme:
-Preu inicial: 100 €
-Honda o Yamaha: 50 €
+Preu inicial: 100€
+Honda o Yamaha: 50€
 
 Per calcular les puntuacions de les notícies se segueixen els següents criteris:
 Notícies de futbol: 5 Punts.
