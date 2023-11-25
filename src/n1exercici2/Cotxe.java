@@ -1,9 +1,9 @@
 package n1exercici2;
 
 public class Cotxe {
-	static final String 	marca = "VW";
-	static String 			model;
-	final int 				potencia;
+	private static final String 	marca = "VW";
+	private static String 			model;
+	private final int 				potencia;
 	
 	public Cotxe(int potencia) {
 		super();
@@ -26,12 +26,12 @@ public class Cotxe {
 		return potencia;
 	}
 	
-	static void frenar() 
+	protected static void frenar()
 	{
 		System.out.println("El vehicle esta frenant");
 	}
 	
-	void accelerar()
+	protected void accelerar()
 	{
 		System.out.println("El vehicle esta accelerant");
 	}
